@@ -61,3 +61,37 @@ header .navbar-brand {
 header .nav-link:hover {
   color: black !important;
 }
+header .row .col-md-7 {
+  font-family: var(--Rubik);
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+  color: white !important;
+}
+header .row .col-md-5 img {
+  width: 90%;
+}
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 8.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+/* Secton 1 */
+
+.section-1{
+  padding: 20vmin 0;
+}
+.section-1 .row .col-md-6 .pray img{
+  width: 80%;
+  opacity: 0.8;
+  border-radius: 0.2em;
+}
