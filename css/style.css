@@ -87,18 +87,18 @@ header .container .col-md-7 p {
 
 /* Secton 1 */
 
-.section-1{
+.section-1 {
   padding: 20vmin 0;
 }
-.section-1 .row .col-md-6 .pray img{
+.section-1 .row .col-md-6 .pray img {
   width: 80%;
   opacity: 0.8;
   border-radius: 0.2em;
 }
-.section-1 .row .col-md-6:last-child{
+.section-1 .row .col-md-6:last-child {
   position: relative;
 }
-.section-1 .row .col-md-6 .panel{
+.section-1 .row .col-md-6 .panel {
   position: absolute;
   top: 12vmin;
   left: -18vmin;
@@ -120,17 +120,16 @@ header .container .col-md-7 p {
   color: rgba(0, 0, 0, 0.5);
 }
 
-
 /* Section-2 */
-.cover{
-  width : 100%;
+.cover {
+  width: 100%;
   height: 55vmin;
-  background : url(../assets/pexels-photo-452738.jpeg);
+  background: url(../assets/pexels-photo-452738.jpeg);
   background-position: -24rem -19rem;
   background-size: 150%;
   position: relative;
 }
-.cover .content{
+.cover .content {
   background: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
@@ -203,7 +202,7 @@ header .container .col-md-7 p {
   padding: 1.5rem 3rem;
   color: var(--light-black);
 }
-.card-body .pricing{
+.card-body .pricing {
   font-size: 5vmin;
   padding-top: 1em;
 }
@@ -268,4 +267,44 @@ header .container .col-md-7 p {
 .card-img-top .img-fluid {
   border-radius: 340px;
   width: 60%;
+}
+/* Footer */
+
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  /* to remove horizontal scrollbar */
+  padding: 14vmin 18vmin;
+}
+footer p > a {
+  text-decoration: none;
+}
+footer p > a span {
+  color: #ff512f !important;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+.input-group-prepend div > i {
+  padding: 2px;
+}
+.input-group-prepend{
+  border-left: none !important;
+}
+.col-md-2 .column i:not(:last-child){
+  margin-right: 1rem;
 }
