@@ -95,3 +95,17 @@ header .container .col-md-7 p {
   opacity: 0.8;
   border-radius: 0.2em;
 }
+.section-1 .row .col-md-6:last-child{
+  position: relative;
+}
+.section-1 .row .col-md-6 .panel{
+  position: absolute;
+  top: 12vmin;
+  left: -18vmin;
+  background: #fff;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  box-shadow: 0 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: var(--Rubik);
+}
