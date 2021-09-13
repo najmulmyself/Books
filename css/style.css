@@ -109,3 +109,17 @@ header .container .col-md-7 p {
   box-shadow: 0 25px 42px rgba(0, 0, 0, 0.2);
   font-family: var(--Rubik);
 }
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Section-2 */
+
